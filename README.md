@@ -4,11 +4,24 @@
 
 ## 启动
 
-当前交付环境已准备便携式 JDK、Maven，路径位于本任务 work/tools，构建依赖位于 work/m2。
+标准环境需要 Java 17、Maven 3.6.3 或更新版本。前端静态资源已包含在仓库中，无需安装 Node.js；Redis 为可选组件。当前 Windows 开发环境的便携式 JDK、Maven 位于 .runtime/tools，构建依赖位于 .runtime/m2；.runtime 已被 Git 排除，克隆仓库不会包含这些工具和依赖。
 
-在项目目录执行 ./build.ps1 构建并运行测试；若 Windows 沙箱阻止 Java 读取 Maven JAR，可执行 python scripts/portable_build.py（同一套 25 个测试）。执行 ./start.ps1 后打开 http://127.0.0.1:8080，执行 ./stop.ps1 停止服务。
+本地已准备 .runtime 时，在项目目录执行 ./build.ps1 构建并运行测试；若 Windows 沙箱阻止 Java 读取 Maven JAR，可执行 python scripts/portable_build.py（需要 Python 3 和已准备的 .runtime，运行同一套测试，但不执行 Maven 打包；首次使用可能下载 JUnit Console）。执行 ./start.ps1 后打开 http://127.0.0.1:8080，执行 ./stop.ps1 停止服务。
 
 服务在隐藏窗口后台运行，日志为 server.log / server-error.log，PID 位于 server.pid。另一台电脑安装 Java 17 和 Maven 后，在项目目录运行 mvn verify，再运行 java -jar target/maintenance-1.0.0.jar 即可。也可以直接复制 jar 到有 Java 17 的电脑运行。
+
+### 从 GitHub 克隆并运行
+
+```powershell
+git clone https://github.com/Lusun-Lusun/airport-maintenance.git
+cd airport-maintenance
+mvn verify
+java -jar target/maintenance-1.0.0.jar
+```
+
+启动后打开 http://127.0.0.1:8080，前台运行时按 Ctrl+C 停止服务。mvn verify 会编译、执行测试并生成可运行 JAR。
+
+### 数据初始化
 
 首次启动自动装载 30 台设备、12 名维修人员、120 条已验收历史工单。文件存储在 data/airport.mv.db，重启保留操作。测试使用独立的内存库，不覆盖演示库。若需重置演示库，请先停止服务，再备份并移走 data 目录。
 
@@ -47,9 +60,3 @@ POST /api/equipment 新增设备；POST /api/inspections 提交巡检；POST /ap
 五个核心模块及本地消息、站内通知、审计、可重复测试。当前是单机演示服务，共享管理工作台，尚未实现登录/RBAC、独立维修与验收人员隔离、附件、完整设备编辑删除、人员管理编辑、生产 MySQL 迁移脚本、消息指数退避与告警、多实例消费部署。生产上线需要补齐这些事项并验证运行环境。仅本机演示默认无登录，不应直接暴露公网。
 
 开源调研与依赖许可见 THIRD_PARTY.md，详细评价见 reports/评价报告.md。
-
-
-
-## 开发位置
-
-本项目已迁移到 E:/codexproject/code/airport-maintenance。运行工具和依赖位于项目的 .runtime，已被 Git 排除。C 盘原数据库因运行锁未复制，原副本保留；E 盘首次启动将初始化演示数据。
