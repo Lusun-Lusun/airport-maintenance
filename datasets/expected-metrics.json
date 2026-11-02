@@ -1,0 +1,10 @@
+{
+  "seed": 20260801,
+  "equipmentCount": 30,
+  "completedOrders": 120,
+  "windowFrom": "2026-08-01T00:00:00Z",
+  "windowTo": "2026-11-01T00:00:00Z",
+  "mttrHours": 3.8666666666666667,
+  "downtimeHours": 584,
+  "availabilityPercent": 99.11835748792271
+}

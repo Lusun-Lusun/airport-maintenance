@@ -1,0 +1,12 @@
+target/
+data/
+.runtime/
+*.log
+*.pid
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+__pycache__/
+*.zip

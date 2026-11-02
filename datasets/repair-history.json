@@ -1,0 +1,962 @@
+[
+  {
+    "id": 1,
+    "equipmentId": 1,
+    "openedAt": "2026-08-02T01:00:00Z",
+    "repairedAt": "2026-08-02T07:00:00Z",
+    "acceptedAt": "2026-08-02T08:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 2,
+    "equipmentId": 2,
+    "openedAt": "2026-08-02T02:00:00Z",
+    "repairedAt": "2026-08-02T10:00:00Z",
+    "acceptedAt": "2026-08-02T11:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 3,
+    "equipmentId": 3,
+    "openedAt": "2026-08-02T03:00:00Z",
+    "repairedAt": "2026-08-02T11:00:00Z",
+    "acceptedAt": "2026-08-02T12:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 4,
+    "equipmentId": 4,
+    "openedAt": "2026-08-02T04:00:00Z",
+    "repairedAt": "2026-08-02T07:00:00Z",
+    "acceptedAt": "2026-08-02T08:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 5,
+    "equipmentId": 5,
+    "openedAt": "2026-08-02T05:00:00Z",
+    "repairedAt": "2026-08-02T11:00:00Z",
+    "acceptedAt": "2026-08-02T12:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 6,
+    "equipmentId": 6,
+    "openedAt": "2026-08-02T06:00:00Z",
+    "repairedAt": "2026-08-02T14:00:00Z",
+    "acceptedAt": "2026-08-02T15:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 7,
+    "equipmentId": 7,
+    "openedAt": "2026-08-02T07:00:00Z",
+    "repairedAt": "2026-08-02T09:00:00Z",
+    "acceptedAt": "2026-08-02T10:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 8,
+    "equipmentId": 8,
+    "openedAt": "2026-08-02T00:00:00Z",
+    "repairedAt": "2026-08-02T01:00:00Z",
+    "acceptedAt": "2026-08-02T02:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 9,
+    "equipmentId": 9,
+    "openedAt": "2026-08-02T01:00:00Z",
+    "repairedAt": "2026-08-02T09:00:00Z",
+    "acceptedAt": "2026-08-02T10:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 10,
+    "equipmentId": 10,
+    "openedAt": "2026-08-02T02:00:00Z",
+    "repairedAt": "2026-08-02T04:00:00Z",
+    "acceptedAt": "2026-08-02T05:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 11,
+    "equipmentId": 11,
+    "openedAt": "2026-08-02T03:00:00Z",
+    "repairedAt": "2026-08-02T06:00:00Z",
+    "acceptedAt": "2026-08-02T07:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 12,
+    "equipmentId": 12,
+    "openedAt": "2026-08-02T04:00:00Z",
+    "repairedAt": "2026-08-02T06:00:00Z",
+    "acceptedAt": "2026-08-02T07:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 13,
+    "equipmentId": 13,
+    "openedAt": "2026-08-02T05:00:00Z",
+    "repairedAt": "2026-08-02T08:00:00Z",
+    "acceptedAt": "2026-08-02T09:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 14,
+    "equipmentId": 14,
+    "openedAt": "2026-08-02T06:00:00Z",
+    "repairedAt": "2026-08-02T07:00:00Z",
+    "acceptedAt": "2026-08-02T08:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 15,
+    "equipmentId": 15,
+    "openedAt": "2026-08-02T07:00:00Z",
+    "repairedAt": "2026-08-02T13:00:00Z",
+    "acceptedAt": "2026-08-02T14:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 16,
+    "equipmentId": 16,
+    "openedAt": "2026-08-02T00:00:00Z",
+    "repairedAt": "2026-08-02T08:00:00Z",
+    "acceptedAt": "2026-08-02T09:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 17,
+    "equipmentId": 17,
+    "openedAt": "2026-08-02T01:00:00Z",
+    "repairedAt": "2026-08-02T02:00:00Z",
+    "acceptedAt": "2026-08-02T03:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 18,
+    "equipmentId": 18,
+    "openedAt": "2026-08-02T02:00:00Z",
+    "repairedAt": "2026-08-02T04:00:00Z",
+    "acceptedAt": "2026-08-02T05:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 19,
+    "equipmentId": 19,
+    "openedAt": "2026-08-02T03:00:00Z",
+    "repairedAt": "2026-08-02T09:00:00Z",
+    "acceptedAt": "2026-08-02T10:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 20,
+    "equipmentId": 20,
+    "openedAt": "2026-08-02T04:00:00Z",
+    "repairedAt": "2026-08-02T12:00:00Z",
+    "acceptedAt": "2026-08-02T13:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 21,
+    "equipmentId": 21,
+    "openedAt": "2026-08-02T05:00:00Z",
+    "repairedAt": "2026-08-02T09:00:00Z",
+    "acceptedAt": "2026-08-02T10:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 22,
+    "equipmentId": 22,
+    "openedAt": "2026-08-02T06:00:00Z",
+    "repairedAt": "2026-08-02T08:00:00Z",
+    "acceptedAt": "2026-08-02T09:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 23,
+    "equipmentId": 23,
+    "openedAt": "2026-08-02T07:00:00Z",
+    "repairedAt": "2026-08-02T13:00:00Z",
+    "acceptedAt": "2026-08-02T14:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 24,
+    "equipmentId": 24,
+    "openedAt": "2026-08-02T00:00:00Z",
+    "repairedAt": "2026-08-02T08:00:00Z",
+    "acceptedAt": "2026-08-02T09:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 25,
+    "equipmentId": 25,
+    "openedAt": "2026-08-02T01:00:00Z",
+    "repairedAt": "2026-08-02T07:00:00Z",
+    "acceptedAt": "2026-08-02T08:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 26,
+    "equipmentId": 26,
+    "openedAt": "2026-08-02T02:00:00Z",
+    "repairedAt": "2026-08-02T10:00:00Z",
+    "acceptedAt": "2026-08-02T11:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 27,
+    "equipmentId": 27,
+    "openedAt": "2026-08-02T03:00:00Z",
+    "repairedAt": "2026-08-02T06:00:00Z",
+    "acceptedAt": "2026-08-02T07:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 28,
+    "equipmentId": 28,
+    "openedAt": "2026-08-02T04:00:00Z",
+    "repairedAt": "2026-08-02T10:00:00Z",
+    "acceptedAt": "2026-08-02T11:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 29,
+    "equipmentId": 29,
+    "openedAt": "2026-08-02T05:00:00Z",
+    "repairedAt": "2026-08-02T08:00:00Z",
+    "acceptedAt": "2026-08-02T09:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 30,
+    "equipmentId": 30,
+    "openedAt": "2026-08-02T06:00:00Z",
+    "repairedAt": "2026-08-02T08:00:00Z",
+    "acceptedAt": "2026-08-02T09:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 31,
+    "equipmentId": 1,
+    "openedAt": "2026-08-22T01:00:00Z",
+    "repairedAt": "2026-08-22T09:00:00Z",
+    "acceptedAt": "2026-08-22T10:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 32,
+    "equipmentId": 2,
+    "openedAt": "2026-08-22T02:00:00Z",
+    "repairedAt": "2026-08-22T04:00:00Z",
+    "acceptedAt": "2026-08-22T05:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 33,
+    "equipmentId": 3,
+    "openedAt": "2026-08-22T03:00:00Z",
+    "repairedAt": "2026-08-22T05:00:00Z",
+    "acceptedAt": "2026-08-22T06:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 34,
+    "equipmentId": 4,
+    "openedAt": "2026-08-22T04:00:00Z",
+    "repairedAt": "2026-08-22T05:00:00Z",
+    "acceptedAt": "2026-08-22T06:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 35,
+    "equipmentId": 5,
+    "openedAt": "2026-08-22T05:00:00Z",
+    "repairedAt": "2026-08-22T08:00:00Z",
+    "acceptedAt": "2026-08-22T09:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 36,
+    "equipmentId": 6,
+    "openedAt": "2026-08-22T06:00:00Z",
+    "repairedAt": "2026-08-22T08:00:00Z",
+    "acceptedAt": "2026-08-22T09:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 37,
+    "equipmentId": 7,
+    "openedAt": "2026-08-22T07:00:00Z",
+    "repairedAt": "2026-08-22T13:00:00Z",
+    "acceptedAt": "2026-08-22T14:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 38,
+    "equipmentId": 8,
+    "openedAt": "2026-08-22T00:00:00Z",
+    "repairedAt": "2026-08-22T02:00:00Z",
+    "acceptedAt": "2026-08-22T03:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 39,
+    "equipmentId": 9,
+    "openedAt": "2026-08-22T01:00:00Z",
+    "repairedAt": "2026-08-22T09:00:00Z",
+    "acceptedAt": "2026-08-22T10:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 40,
+    "equipmentId": 10,
+    "openedAt": "2026-08-22T02:00:00Z",
+    "repairedAt": "2026-08-22T10:00:00Z",
+    "acceptedAt": "2026-08-22T11:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 41,
+    "equipmentId": 11,
+    "openedAt": "2026-08-22T03:00:00Z",
+    "repairedAt": "2026-08-22T04:00:00Z",
+    "acceptedAt": "2026-08-22T05:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 42,
+    "equipmentId": 12,
+    "openedAt": "2026-08-22T04:00:00Z",
+    "repairedAt": "2026-08-22T08:00:00Z",
+    "acceptedAt": "2026-08-22T09:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 43,
+    "equipmentId": 13,
+    "openedAt": "2026-08-22T05:00:00Z",
+    "repairedAt": "2026-08-22T13:00:00Z",
+    "acceptedAt": "2026-08-22T14:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 44,
+    "equipmentId": 14,
+    "openedAt": "2026-08-22T06:00:00Z",
+    "repairedAt": "2026-08-22T12:00:00Z",
+    "acceptedAt": "2026-08-22T13:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 45,
+    "equipmentId": 15,
+    "openedAt": "2026-08-22T07:00:00Z",
+    "repairedAt": "2026-08-22T11:00:00Z",
+    "acceptedAt": "2026-08-22T12:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 46,
+    "equipmentId": 16,
+    "openedAt": "2026-08-22T00:00:00Z",
+    "repairedAt": "2026-08-22T01:00:00Z",
+    "acceptedAt": "2026-08-22T02:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 47,
+    "equipmentId": 17,
+    "openedAt": "2026-08-22T01:00:00Z",
+    "repairedAt": "2026-08-22T03:00:00Z",
+    "acceptedAt": "2026-08-22T04:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 48,
+    "equipmentId": 18,
+    "openedAt": "2026-08-22T02:00:00Z",
+    "repairedAt": "2026-08-22T03:00:00Z",
+    "acceptedAt": "2026-08-22T04:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 49,
+    "equipmentId": 19,
+    "openedAt": "2026-08-22T03:00:00Z",
+    "repairedAt": "2026-08-22T07:00:00Z",
+    "acceptedAt": "2026-08-22T08:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 50,
+    "equipmentId": 20,
+    "openedAt": "2026-08-22T04:00:00Z",
+    "repairedAt": "2026-08-22T07:00:00Z",
+    "acceptedAt": "2026-08-22T08:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 51,
+    "equipmentId": 21,
+    "openedAt": "2026-08-22T05:00:00Z",
+    "repairedAt": "2026-08-22T06:00:00Z",
+    "acceptedAt": "2026-08-22T07:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 52,
+    "equipmentId": 22,
+    "openedAt": "2026-08-22T06:00:00Z",
+    "repairedAt": "2026-08-22T09:00:00Z",
+    "acceptedAt": "2026-08-22T10:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 53,
+    "equipmentId": 23,
+    "openedAt": "2026-08-22T07:00:00Z",
+    "repairedAt": "2026-08-22T11:00:00Z",
+    "acceptedAt": "2026-08-22T12:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 54,
+    "equipmentId": 24,
+    "openedAt": "2026-08-22T00:00:00Z",
+    "repairedAt": "2026-08-22T04:00:00Z",
+    "acceptedAt": "2026-08-22T05:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 55,
+    "equipmentId": 25,
+    "openedAt": "2026-08-22T01:00:00Z",
+    "repairedAt": "2026-08-22T05:00:00Z",
+    "acceptedAt": "2026-08-22T06:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 56,
+    "equipmentId": 26,
+    "openedAt": "2026-08-22T02:00:00Z",
+    "repairedAt": "2026-08-22T05:00:00Z",
+    "acceptedAt": "2026-08-22T06:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 57,
+    "equipmentId": 27,
+    "openedAt": "2026-08-22T03:00:00Z",
+    "repairedAt": "2026-08-22T04:00:00Z",
+    "acceptedAt": "2026-08-22T05:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 58,
+    "equipmentId": 28,
+    "openedAt": "2026-08-22T04:00:00Z",
+    "repairedAt": "2026-08-22T08:00:00Z",
+    "acceptedAt": "2026-08-22T09:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 59,
+    "equipmentId": 29,
+    "openedAt": "2026-08-22T05:00:00Z",
+    "repairedAt": "2026-08-22T11:00:00Z",
+    "acceptedAt": "2026-08-22T12:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 60,
+    "equipmentId": 30,
+    "openedAt": "2026-08-22T06:00:00Z",
+    "repairedAt": "2026-08-22T10:00:00Z",
+    "acceptedAt": "2026-08-22T11:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 61,
+    "equipmentId": 1,
+    "openedAt": "2026-09-11T01:00:00Z",
+    "repairedAt": "2026-09-11T02:00:00Z",
+    "acceptedAt": "2026-09-11T03:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 62,
+    "equipmentId": 2,
+    "openedAt": "2026-09-11T02:00:00Z",
+    "repairedAt": "2026-09-11T04:00:00Z",
+    "acceptedAt": "2026-09-11T05:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 63,
+    "equipmentId": 3,
+    "openedAt": "2026-09-11T03:00:00Z",
+    "repairedAt": "2026-09-11T06:00:00Z",
+    "acceptedAt": "2026-09-11T07:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 64,
+    "equipmentId": 4,
+    "openedAt": "2026-09-11T04:00:00Z",
+    "repairedAt": "2026-09-11T08:00:00Z",
+    "acceptedAt": "2026-09-11T09:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 65,
+    "equipmentId": 5,
+    "openedAt": "2026-09-11T05:00:00Z",
+    "repairedAt": "2026-09-11T07:00:00Z",
+    "acceptedAt": "2026-09-11T08:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 66,
+    "equipmentId": 6,
+    "openedAt": "2026-09-11T06:00:00Z",
+    "repairedAt": "2026-09-11T12:00:00Z",
+    "acceptedAt": "2026-09-11T13:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 67,
+    "equipmentId": 7,
+    "openedAt": "2026-09-11T07:00:00Z",
+    "repairedAt": "2026-09-11T13:00:00Z",
+    "acceptedAt": "2026-09-11T14:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 68,
+    "equipmentId": 8,
+    "openedAt": "2026-09-11T00:00:00Z",
+    "repairedAt": "2026-09-11T01:00:00Z",
+    "acceptedAt": "2026-09-11T02:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 69,
+    "equipmentId": 9,
+    "openedAt": "2026-09-11T01:00:00Z",
+    "repairedAt": "2026-09-11T07:00:00Z",
+    "acceptedAt": "2026-09-11T08:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 70,
+    "equipmentId": 10,
+    "openedAt": "2026-09-11T02:00:00Z",
+    "repairedAt": "2026-09-11T03:00:00Z",
+    "acceptedAt": "2026-09-11T04:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 71,
+    "equipmentId": 11,
+    "openedAt": "2026-09-11T03:00:00Z",
+    "repairedAt": "2026-09-11T05:00:00Z",
+    "acceptedAt": "2026-09-11T06:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 72,
+    "equipmentId": 12,
+    "openedAt": "2026-09-11T04:00:00Z",
+    "repairedAt": "2026-09-11T05:00:00Z",
+    "acceptedAt": "2026-09-11T06:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 73,
+    "equipmentId": 13,
+    "openedAt": "2026-09-11T05:00:00Z",
+    "repairedAt": "2026-09-11T08:00:00Z",
+    "acceptedAt": "2026-09-11T09:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 74,
+    "equipmentId": 14,
+    "openedAt": "2026-09-11T06:00:00Z",
+    "repairedAt": "2026-09-11T08:00:00Z",
+    "acceptedAt": "2026-09-11T09:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 75,
+    "equipmentId": 15,
+    "openedAt": "2026-09-11T07:00:00Z",
+    "repairedAt": "2026-09-11T15:00:00Z",
+    "acceptedAt": "2026-09-11T16:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 76,
+    "equipmentId": 16,
+    "openedAt": "2026-09-11T00:00:00Z",
+    "repairedAt": "2026-09-11T02:00:00Z",
+    "acceptedAt": "2026-09-11T03:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 77,
+    "equipmentId": 17,
+    "openedAt": "2026-09-11T01:00:00Z",
+    "repairedAt": "2026-09-11T05:00:00Z",
+    "acceptedAt": "2026-09-11T06:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 78,
+    "equipmentId": 18,
+    "openedAt": "2026-09-11T02:00:00Z",
+    "repairedAt": "2026-09-11T05:00:00Z",
+    "acceptedAt": "2026-09-11T06:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 79,
+    "equipmentId": 19,
+    "openedAt": "2026-09-11T03:00:00Z",
+    "repairedAt": "2026-09-11T04:00:00Z",
+    "acceptedAt": "2026-09-11T05:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 80,
+    "equipmentId": 20,
+    "openedAt": "2026-09-11T04:00:00Z",
+    "repairedAt": "2026-09-11T07:00:00Z",
+    "acceptedAt": "2026-09-11T08:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 81,
+    "equipmentId": 21,
+    "openedAt": "2026-09-11T05:00:00Z",
+    "repairedAt": "2026-09-11T07:00:00Z",
+    "acceptedAt": "2026-09-11T08:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 82,
+    "equipmentId": 22,
+    "openedAt": "2026-09-11T06:00:00Z",
+    "repairedAt": "2026-09-11T09:00:00Z",
+    "acceptedAt": "2026-09-11T10:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 83,
+    "equipmentId": 23,
+    "openedAt": "2026-09-11T07:00:00Z",
+    "repairedAt": "2026-09-11T13:00:00Z",
+    "acceptedAt": "2026-09-11T14:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 84,
+    "equipmentId": 24,
+    "openedAt": "2026-09-11T00:00:00Z",
+    "repairedAt": "2026-09-11T06:00:00Z",
+    "acceptedAt": "2026-09-11T07:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 85,
+    "equipmentId": 25,
+    "openedAt": "2026-09-11T01:00:00Z",
+    "repairedAt": "2026-09-11T04:00:00Z",
+    "acceptedAt": "2026-09-11T05:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 86,
+    "equipmentId": 26,
+    "openedAt": "2026-09-11T02:00:00Z",
+    "repairedAt": "2026-09-11T08:00:00Z",
+    "acceptedAt": "2026-09-11T09:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 87,
+    "equipmentId": 27,
+    "openedAt": "2026-09-11T03:00:00Z",
+    "repairedAt": "2026-09-11T07:00:00Z",
+    "acceptedAt": "2026-09-11T08:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 88,
+    "equipmentId": 28,
+    "openedAt": "2026-09-11T04:00:00Z",
+    "repairedAt": "2026-09-11T08:00:00Z",
+    "acceptedAt": "2026-09-11T09:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 89,
+    "equipmentId": 29,
+    "openedAt": "2026-09-11T05:00:00Z",
+    "repairedAt": "2026-09-11T07:00:00Z",
+    "acceptedAt": "2026-09-11T08:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 90,
+    "equipmentId": 30,
+    "openedAt": "2026-09-11T06:00:00Z",
+    "repairedAt": "2026-09-11T10:00:00Z",
+    "acceptedAt": "2026-09-11T11:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 91,
+    "equipmentId": 1,
+    "openedAt": "2026-10-01T01:00:00Z",
+    "repairedAt": "2026-10-01T04:00:00Z",
+    "acceptedAt": "2026-10-01T05:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 92,
+    "equipmentId": 2,
+    "openedAt": "2026-10-01T02:00:00Z",
+    "repairedAt": "2026-10-01T10:00:00Z",
+    "acceptedAt": "2026-10-01T11:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 93,
+    "equipmentId": 3,
+    "openedAt": "2026-10-01T03:00:00Z",
+    "repairedAt": "2026-10-01T05:00:00Z",
+    "acceptedAt": "2026-10-01T06:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 94,
+    "equipmentId": 4,
+    "openedAt": "2026-10-01T04:00:00Z",
+    "repairedAt": "2026-10-01T12:00:00Z",
+    "acceptedAt": "2026-10-01T13:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 95,
+    "equipmentId": 5,
+    "openedAt": "2026-10-01T05:00:00Z",
+    "repairedAt": "2026-10-01T11:00:00Z",
+    "acceptedAt": "2026-10-01T12:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 96,
+    "equipmentId": 6,
+    "openedAt": "2026-10-01T06:00:00Z",
+    "repairedAt": "2026-10-01T08:00:00Z",
+    "acceptedAt": "2026-10-01T09:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 97,
+    "equipmentId": 7,
+    "openedAt": "2026-10-01T07:00:00Z",
+    "repairedAt": "2026-10-01T11:00:00Z",
+    "acceptedAt": "2026-10-01T12:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 98,
+    "equipmentId": 8,
+    "openedAt": "2026-10-01T00:00:00Z",
+    "repairedAt": "2026-10-01T04:00:00Z",
+    "acceptedAt": "2026-10-01T05:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 99,
+    "equipmentId": 9,
+    "openedAt": "2026-10-01T01:00:00Z",
+    "repairedAt": "2026-10-01T04:00:00Z",
+    "acceptedAt": "2026-10-01T05:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 100,
+    "equipmentId": 10,
+    "openedAt": "2026-10-01T02:00:00Z",
+    "repairedAt": "2026-10-01T04:00:00Z",
+    "acceptedAt": "2026-10-01T05:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 101,
+    "equipmentId": 11,
+    "openedAt": "2026-10-01T03:00:00Z",
+    "repairedAt": "2026-10-01T11:00:00Z",
+    "acceptedAt": "2026-10-01T12:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 102,
+    "equipmentId": 12,
+    "openedAt": "2026-10-01T04:00:00Z",
+    "repairedAt": "2026-10-01T06:00:00Z",
+    "acceptedAt": "2026-10-01T07:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 103,
+    "equipmentId": 13,
+    "openedAt": "2026-10-01T05:00:00Z",
+    "repairedAt": "2026-10-01T07:00:00Z",
+    "acceptedAt": "2026-10-01T08:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 104,
+    "equipmentId": 14,
+    "openedAt": "2026-10-01T06:00:00Z",
+    "repairedAt": "2026-10-01T10:00:00Z",
+    "acceptedAt": "2026-10-01T11:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 105,
+    "equipmentId": 15,
+    "openedAt": "2026-10-01T07:00:00Z",
+    "repairedAt": "2026-10-01T09:00:00Z",
+    "acceptedAt": "2026-10-01T10:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 106,
+    "equipmentId": 16,
+    "openedAt": "2026-10-01T00:00:00Z",
+    "repairedAt": "2026-10-01T02:00:00Z",
+    "acceptedAt": "2026-10-01T03:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 107,
+    "equipmentId": 17,
+    "openedAt": "2026-10-01T01:00:00Z",
+    "repairedAt": "2026-10-01T09:00:00Z",
+    "acceptedAt": "2026-10-01T10:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 108,
+    "equipmentId": 18,
+    "openedAt": "2026-10-01T02:00:00Z",
+    "repairedAt": "2026-10-01T03:00:00Z",
+    "acceptedAt": "2026-10-01T04:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 109,
+    "equipmentId": 19,
+    "openedAt": "2026-10-01T03:00:00Z",
+    "repairedAt": "2026-10-01T04:00:00Z",
+    "acceptedAt": "2026-10-01T05:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 110,
+    "equipmentId": 20,
+    "openedAt": "2026-10-01T04:00:00Z",
+    "repairedAt": "2026-10-01T08:00:00Z",
+    "acceptedAt": "2026-10-01T09:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 111,
+    "equipmentId": 21,
+    "openedAt": "2026-10-01T05:00:00Z",
+    "repairedAt": "2026-10-01T06:00:00Z",
+    "acceptedAt": "2026-10-01T07:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 112,
+    "equipmentId": 22,
+    "openedAt": "2026-10-01T06:00:00Z",
+    "repairedAt": "2026-10-01T09:00:00Z",
+    "acceptedAt": "2026-10-01T10:00:00Z",
+    "repairHours": 3
+  },
+  {
+    "id": 113,
+    "equipmentId": 23,
+    "openedAt": "2026-10-01T07:00:00Z",
+    "repairedAt": "2026-10-01T15:00:00Z",
+    "acceptedAt": "2026-10-01T16:00:00Z",
+    "repairHours": 8
+  },
+  {
+    "id": 114,
+    "equipmentId": 24,
+    "openedAt": "2026-10-01T00:00:00Z",
+    "repairedAt": "2026-10-01T06:00:00Z",
+    "acceptedAt": "2026-10-01T07:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 115,
+    "equipmentId": 25,
+    "openedAt": "2026-10-01T01:00:00Z",
+    "repairedAt": "2026-10-01T05:00:00Z",
+    "acceptedAt": "2026-10-01T06:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 116,
+    "equipmentId": 26,
+    "openedAt": "2026-10-01T02:00:00Z",
+    "repairedAt": "2026-10-01T06:00:00Z",
+    "acceptedAt": "2026-10-01T07:00:00Z",
+    "repairHours": 4
+  },
+  {
+    "id": 117,
+    "equipmentId": 27,
+    "openedAt": "2026-10-01T03:00:00Z",
+    "repairedAt": "2026-10-01T04:00:00Z",
+    "acceptedAt": "2026-10-01T05:00:00Z",
+    "repairHours": 1
+  },
+  {
+    "id": 118,
+    "equipmentId": 28,
+    "openedAt": "2026-10-01T04:00:00Z",
+    "repairedAt": "2026-10-01T10:00:00Z",
+    "acceptedAt": "2026-10-01T11:00:00Z",
+    "repairHours": 6
+  },
+  {
+    "id": 119,
+    "equipmentId": 29,
+    "openedAt": "2026-10-01T05:00:00Z",
+    "repairedAt": "2026-10-01T07:00:00Z",
+    "acceptedAt": "2026-10-01T08:00:00Z",
+    "repairHours": 2
+  },
+  {
+    "id": 120,
+    "equipmentId": 30,
+    "openedAt": "2026-10-01T06:00:00Z",
+    "repairedAt": "2026-10-01T08:00:00Z",
+    "acceptedAt": "2026-10-01T09:00:00Z",
+    "repairHours": 2
+  }
+]

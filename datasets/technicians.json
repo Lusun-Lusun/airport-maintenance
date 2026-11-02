@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "工程师01",
+    "area": "T1",
+    "skills": "机械,电气",
+    "capacity": 3
+  },
+  {
+    "id": 2,
+    "name": "工程师02",
+    "area": "T1",
+    "skills": "暖通",
+    "capacity": 3
+  },
+  {
+    "id": 3,
+    "name": "工程师03",
+    "area": "T1",
+    "skills": "登机桥",
+    "capacity": 3
+  },
+  {
+    "id": 4,
+    "name": "工程师04",
+    "area": "T1",
+    "skills": "灯光",
+    "capacity": 3
+  },
+  {
+    "id": 5,
+    "name": "工程师05",
+    "area": "T2",
+    "skills": "机械,电气",
+    "capacity": 3
+  },
+  {
+    "id": 6,
+    "name": "工程师06",
+    "area": "T2",
+    "skills": "暖通",
+    "capacity": 3
+  },
+  {
+    "id": 7,
+    "name": "工程师07",
+    "area": "T2",
+    "skills": "登机桥",
+    "capacity": 3
+  },
+  {
+    "id": 8,
+    "name": "工程师08",
+    "area": "T2",
+    "skills": "灯光",
+    "capacity": 3
+  },
+  {
+    "id": 9,
+    "name": "工程师09",
+    "area": "飞行区",
+    "skills": "机械,电气",
+    "capacity": 3
+  },
+  {
+    "id": 10,
+    "name": "工程师10",
+    "area": "飞行区",
+    "skills": "暖通",
+    "capacity": 3
+  },
+  {
+    "id": 11,
+    "name": "工程师11",
+    "area": "飞行区",
+    "skills": "登机桥",
+    "capacity": 3
+  },
+  {
+    "id": 12,
+    "name": "工程师12",
+    "area": "飞行区",
+    "skills": "灯光",
+    "capacity": 3
+  }
+]

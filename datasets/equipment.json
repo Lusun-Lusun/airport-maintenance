@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "code": "BHS-001",
+    "name": "行李处理设备 01",
+    "system": "行李处理",
+    "area": "T1",
+    "skill": "机械",
+    "criticality": 2,
+    "affectsFlights": false
+  },
+  {
+    "id": 2,
+    "code": "ELE-002",
+    "name": "供配电设备 02",
+    "system": "供配电",
+    "area": "T1",
+    "skill": "电气",
+    "criticality": 3,
+    "affectsFlights": false
+  },
+  {
+    "id": 3,
+    "code": "HVAC-003",
+    "name": "空调通风设备 03",
+    "system": "空调通风",
+    "area": "T1",
+    "skill": "暖通",
+    "criticality": 1,
+    "affectsFlights": false
+  },
+  {
+    "id": 4,
+    "code": "PBB-004",
+    "name": "登机桥设备 04",
+    "system": "登机桥",
+    "area": "T1",
+    "skill": "登机桥",
+    "criticality": 2,
+    "affectsFlights": true
+  },
+  {
+    "id": 5,
+    "code": "AGL-005",
+    "name": "助航灯光设备 05",
+    "system": "助航灯光",
+    "area": "T1",
+    "skill": "灯光",
+    "criticality": 3,
+    "affectsFlights": false
+  },
+  {
+    "id": 6,
+    "code": "BHS-006",
+    "name": "行李处理设备 06",
+    "system": "行李处理",
+    "area": "T1",
+    "skill": "机械",
+    "criticality": 1,
+    "affectsFlights": false
+  },
+  {
+    "id": 7,
+    "code": "ELE-007",
+    "name": "供配电设备 07",
+    "system": "供配电",
+    "area": "T1",
+    "skill": "电气",
+    "criticality": 2,
+    "affectsFlights": false
+  },
+  {
+    "id": 8,
+    "code": "HVAC-008",
+    "name": "空调通风设备 08",
+    "system": "空调通风",
+    "area": "T1",
+    "skill": "暖通",
+    "criticality": 3,
+    "affectsFlights": true
+  },
+  {
+    "id": 9,
+    "code": "PBB-009",
+    "name": "登机桥设备 09",
+    "system": "登机桥",
+    "area": "T1",
+    "skill": "登机桥",
+    "criticality": 1,
+    "affectsFlights": false
+  },
+  {
+    "id": 10,
+    "code": "AGL-010",
+    "name": "助航灯光设备 10",
+    "system": "助航灯光",
+    "area": "T1",
+    "skill": "灯光",
+    "criticality": 2,
+    "affectsFlights": false
+  },
+  {
+    "id": 11,
+    "code": "BHS-011",
+    "name": "行李处理设备 11",
+    "system": "行李处理",
+    "area": "T2",
+    "skill": "机械",
+    "criticality": 3,
+    "affectsFlights": false
+  },
+  {
+    "id": 12,
+    "code": "ELE-012",
+    "name": "供配电设备 12",
+    "system": "供配电",
+    "area": "T2",
+    "skill": "电气",
+    "criticality": 1,
+    "affectsFlights": true
+  },
+  {
+    "id": 13,
+    "code": "HVAC-013",
+    "name": "空调通风设备 13",
+    "system": "空调通风",
+    "area": "T2",
+    "skill": "暖通",
+    "criticality": 2,
+    "affectsFlights": false
+  },
+  {
+    "id": 14,
+    "code": "PBB-014",
+    "name": "登机桥设备 14",
+    "system": "登机桥",
+    "area": "T2",
+    "skill": "登机桥",
+    "criticality": 3,
+    "affectsFlights": false
+  },
+  {
+    "id": 15,
+    "code": "AGL-015",
+    "name": "助航灯光设备 15",
+    "system": "助航灯光",
+    "area": "T2",
+    "skill": "灯光",
+    "criticality": 1,
+    "affectsFlights": false
+  },
+  {
+    "id": 16,
+    "code": "BHS-016",
+    "name": "行李处理设备 16",
+    "system": "行李处理",
+    "area": "T2",
+    "skill": "机械",
+    "criticality": 2,
+    "affectsFlights": true
+  },
+  {
+    "id": 17,
+    "code": "ELE-017",
+    "name": "供配电设备 17",
+    "system": "供配电",
+    "area": "T2",
+    "skill": "电气",
+    "criticality": 3,
+    "affectsFlights": false
+  },
+  {
+    "id": 18,
+    "code": "HVAC-018",
+    "name": "空调通风设备 18",
+    "system": "空调通风",
+    "area": "T2",
+    "skill": "暖通",
+    "criticality": 1,
+    "affectsFlights": false
+  },
+  {
+    "id": 19,
+    "code": "PBB-019",
+    "name": "登机桥设备 19",
+    "system": "登机桥",
+    "area": "T2",
+    "skill": "登机桥",
+    "criticality": 2,
+    "affectsFlights": false
+  },
+  {
+    "id": 20,
+    "code": "AGL-020",
+    "name": "助航灯光设备 20",
+    "system": "助航灯光",
+    "area": "T2",
+    "skill": "灯光",
+    "criticality": 3,
+    "affectsFlights": true
+  },
+  {
+    "id": 21,
+    "code": "BHS-021",
+    "name": "行李处理设备 21",
+    "system": "行李处理",
+    "area": "飞行区",
+    "skill": "机械",
+    "criticality": 1,
+    "affectsFlights": false
+  },
+  {
+    "id": 22,
+    "code": "ELE-022",
+    "name": "供配电设备 22",
+    "system": "供配电",
+    "area": "飞行区",
+    "skill": "电气",
+    "criticality": 2,
+    "affectsFlights": false
+  },
+  {
+    "id": 23,
+    "code": "HVAC-023",
+    "name": "空调通风设备 23",
+    "system": "空调通风",
+    "area": "飞行区",
+    "skill": "暖通",
+    "criticality": 3,
+    "affectsFlights": false
+  },
+  {
+    "id": 24,
+    "code": "PBB-024",
+    "name": "登机桥设备 24",
+    "system": "登机桥",
+    "area": "飞行区",
+    "skill": "登机桥",
+    "criticality": 1,
+    "affectsFlights": true
+  },
+  {
+    "id": 25,
+    "code": "AGL-025",
+    "name": "助航灯光设备 25",
+    "system": "助航灯光",
+    "area": "飞行区",
+    "skill": "灯光",
+    "criticality": 2,
+    "affectsFlights": false
+  },
+  {
+    "id": 26,
+    "code": "BHS-026",
+    "name": "行李处理设备 26",
+    "system": "行李处理",
+    "area": "飞行区",
+    "skill": "机械",
+    "criticality": 3,
+    "affectsFlights": false
+  },
+  {
+    "id": 27,
+    "code": "ELE-027",
+    "name": "供配电设备 27",
+    "system": "供配电",
+    "area": "飞行区",
+    "skill": "电气",
+    "criticality": 1,
+    "affectsFlights": false
+  },
+  {
+    "id": 28,
+    "code": "HVAC-028",
+    "name": "空调通风设备 28",
+    "system": "空调通风",
+    "area": "飞行区",
+    "skill": "暖通",
+    "criticality": 2,
+    "affectsFlights": true
+  },
+  {
+    "id": 29,
+    "code": "PBB-029",
+    "name": "登机桥设备 29",
+    "system": "登机桥",
+    "area": "飞行区",
+    "skill": "登机桥",
+    "criticality": 3,
+    "affectsFlights": false
+  },
+  {
+    "id": 30,
+    "code": "AGL-030",
+    "name": "助航灯光设备 30",
+    "system": "助航灯光",
+    "area": "飞行区",
+    "skill": "灯光",
+    "criticality": 1,
+    "affectsFlights": false
+  }
+]
